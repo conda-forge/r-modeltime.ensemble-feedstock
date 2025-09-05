@@ -1,4 +1,4 @@
-{% set version = "1.0.5" %}
+{% set version = "1.1.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/modeltime.ensemble_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/modeltime.ensemble/modeltime.ensemble_{{ version }}.tar.gz
-  sha256: 0d030755318b3d17b1d76ef0274307c67d6432e22d3db6f476c8e08f4b4d98a3
+  sha256: 55f64a618a2784c9ab3338d483a72da2a041fa7ecae4809e261f3b08198770fd
 
 build:
   number: 0
